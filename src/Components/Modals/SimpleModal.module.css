@@ -3,7 +3,7 @@
     color: aliceblue;
     outline: none;
     padding: 20px;
-    margin-top: 100px;
+    margin-top: 100px!important;
 }
 
 
@@ -58,6 +58,6 @@ div[class*="makeStyles-modal"] {
 
   @media only screen and (max-width: 600px) {
     .modal {
-      margin-top: 800px;
+      margin-top: 800px!important;
     }
   }
