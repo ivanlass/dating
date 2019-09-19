@@ -58,6 +58,6 @@ div[class*="makeStyles-modal"] {
 
   @media only screen and (max-width: 600px) {
     .modal {
-      margin-top: 300px!important;
+      margin-top: 310px!important;
     }
   }
