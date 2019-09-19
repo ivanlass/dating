@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+html, body {
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background: rgb(17, 17, 17);
+  color: #dadada;
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient( #190A05 0%, #941111cb);
+}
+h1,h2, h3, h4 {
+  font-weight: normal;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+
+.sliderWrapper {
+  text-align: left;
+  padding: 0px 50px 50px 50px;
+}
+
+.sliders {
+  margin: 50px 0 100px 0;
+}
+
+.focus> *:focus {
+  outline: none;
+}
+
+.makeStyles-modal-1 {
+  position: absolute!important;
+  top: 200px!important;
+}
+
+
+.diffColor {
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #f5005688;
+  background-image: linear-gradient(to right, #4343438a 0%, rgba(0, 0, 0, 0.486) 100%);
+  box-shadow: 0px 32px 30px -26px black;
+}
+
+.MuiBackdrop-root {
+  background: rgba(0, 0, 0, 0.856)!important;
+}
+
+
+
+.animation {
+  transform: scale(0);
+  animation-name: slide;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.25, 0.1, 0.46, 1.35);
+}
+
+@keyframes slide {
+  0% {
+      transform: scale(0)
+
+  }
+
+  100% {
+      transform: scale(1)
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .sliderWrapper {
+    padding: 5px;
+  }
+}

@@ -1,0 +1,56 @@
+.modal {
+    background: rgb(17, 17, 17);
+    color: aliceblue;
+    outline: none;
+    padding: 20px;
+    margin-top: 200px;
+}
+
+
+
+.pop {
+    opacity: 0;
+    animation-name: pop;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.99, 0.13, 0.17, 1)
+}
+
+div[class*="makeStyles-modal"] {
+  position: absolute!important;
+}
+
+.jss23 {
+  position: absolute!important;
+}
+
+[role~="presentation"] {
+  position: absolute!important;
+}
+
+
+
+@keyframes pop {
+    0% {
+        opacity: 0;
+    }
+    9%,100% {
+        opacity: 1;
+    }
+    10%, 90% {
+      transform: translate3d(-3px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
