@@ -22,7 +22,7 @@ function Ad(props) {
             <div className={classes.adWrapper} style={{ backgroundImage: `url(${props.photoForAd})` }}>
                 <h1 style={closeBtn} onClick={props.closing}>&times;</h1>
                 <div className={classes.inner}>
-                    <h1 style={txt}>Den nya populära datingsidan är online nu! Skapa din profil idag !</h1>
+                    <h1 style={txt}>Den (asdasdasdasdasd) nya populära datingsidan är online nu! Skapa din profil idag !</h1>
                     <a target="_blank" style={{ display: "block", color: "#4f3ee9" }} href={props.link}>
                         <Button txt="ÖPPNA" link={props.link} />
                     </a>
