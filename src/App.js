@@ -68,7 +68,7 @@ class App extends React.Component {
       site: [
         {
           domain: "otrohetsplatsen",
-          link: "https://cyberblueberry.com/?a=100319&c=104408&s1=",
+          link: "s.scandinavia-date.website",
           rank: "top",
           category: "Adult",
           image: otrohetsplatsen,
@@ -80,7 +80,7 @@ class App extends React.Component {
         },
         {
           domain: "spaningsplatsen",
-          link: "https://cyberstrawberry.com/?a=100319&c=105041&s1=",
+          link: "s1.scandinavia-date.website",
           rank: "top",
           category: "Adult",
           image: spaningsplatsen,
@@ -91,7 +91,7 @@ class App extends React.Component {
         },
         {
           domain: "mogenromantik",
-          link: "https://crazytrackings.com/?a=100319&c=102145&s1=",
+          link: "s2.scandinavia-date.website",
           rank: "top",
           category: "Adult",
           image: mogenromantik,
@@ -102,7 +102,7 @@ class App extends React.Component {
         },
         {
           domain: "hetakontakter",
-          link: "https://crazytrackings.com/?a=100319&c=102718&s1=",
+          link: "s3.scandinavia-date.website",
           rank: "top",
           category: "Adult",
           image: hetakontakter,
@@ -113,7 +113,7 @@ class App extends React.Component {
         },
         {
           domain: "hetkontakt",
-          link: "https://crazytrackings.com/?a=100319&c=100645&s1=",
+          link: "s4.scandinavia-date.website",
           rank: "top",
           category: "Adult",
           image: hetkontakt,
@@ -124,7 +124,7 @@ class App extends React.Component {
         },
         {
           domain: "dejtkontakt",
-          link: "https://crazytrackings.com/?a=100319&c=102720&s1=",
+          link: "s5.scandinavia-date.website",
           rank: "top",
           category: "Adult",
           image: dejtkontakt,
@@ -135,7 +135,7 @@ class App extends React.Component {
         },
         {
           domain: "erotikmatch",
-          link: "https://crazytrackings.com/?a=100319&c=101469&s1=",
+          link: "s6.scandinavia-date.website",
           rank: "adult",
           category: "Adult",
           image: erotikmatch,
@@ -150,7 +150,7 @@ class App extends React.Component {
         },
         {
           domain: "flirthits",
-          link: "https://webapplepie.com/?a=100319&c=105759&s1=",
+          link: "s7.scandinavia-date.website",
           rank: "adult",
           category: "Adult",
           image: flirthits,
@@ -162,7 +162,7 @@ class App extends React.Component {
         },
         {
           domain: "engangsligg",
-          link: "https://webapplepie.com/?a=100319&c=105759&s1=",
+          link: "s8.scandinavia-date.website",
           rank: "adult",
           category: "Adult",
           image: engangsligg,
